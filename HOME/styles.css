@@ -1,0 +1,62 @@
+.titre{
+    color: rgb(234, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+body{
+    margin: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 80%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #045faa;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(85, 85, 85);
+    color: white;
+  }
+
+  iframe{
+      margin-left: 450px;
+  }
+
+  .formulaire{
+    margin-left: 300px;
+
+  }
+  .comment{
+    margin-left: 400px;
+    padding-bottom: 50px;
+
+  }
+  .footer{
+    margin-left: 400px;
+
+  }
+ .formformulaire label{
+    font-family : inherit;
+    font-size   : 100%;
+  }
+ 
